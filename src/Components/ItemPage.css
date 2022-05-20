@@ -1,0 +1,107 @@
+@media (min-width: 390px){
+    body{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+    }  
+    .navigation{
+        margin-top: 54px;
+        margin-left: 20px;
+        width: 348px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .prod{
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 20px;
+    }
+    .prod-info{
+        text-align: start;
+        margin-top: 24px;
+        gap: 8px;
+    }
+    .rate{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        width: 43px;
+        height: 17px;
+        gap: 3px;
+    }
+    .filter{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 350px;
+        margin-left: 20px;
+    }
+    .size{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .info{
+        width: 309px;
+        height: 30px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+    }
+    .below{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .belowtxt{
+        text-align: start;
+        margin-left: 21px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .views{
+        width: 444px;
+        height: 93px;
+        margin-left: 21px;
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+    .button-sect{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-bottom: 61px;
+    }
+    .quantity{
+        text-align: start;
+        margin-bottom: 0;
+    }
+    .buttons{
+        width: 350px;
+        height: 48px;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .meter{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .add-to-cart{
+        background: #64D8A4;
+        border-radius: 20px;
+        width: 121px;
+        height: 48px;
+    }
+}

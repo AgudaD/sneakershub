@@ -1,6 +1,6 @@
 import "./App.css";
 import HomePage from './Components/HomePage';
-import ItemPage from './Components/ItemPage';
+// import ItemPage from './Components/ItemPage';
 
 function App() {
   

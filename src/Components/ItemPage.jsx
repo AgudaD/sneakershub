@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './ItemPage.css'
 import { BsFillHeartFill  } from "react-icons/bs";
 import left from '../Assets/leftarrow.svg'
-import heart from '../Assets/Heart.svg'
 import star from '../Assets/star.svg'
 import bigshoe from '../Assets/bigshoe.svg'
 import camera from '../Assets/camera.svg'

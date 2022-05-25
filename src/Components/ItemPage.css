@@ -14,6 +14,18 @@
         justify-content: space-between;
         align-items: center;
     }
+    .heart-button-enabled{
+        background-color: white;
+        border: none;
+        color: red;
+        font-size: 24px;
+    }
+    .heart-button-disabled{
+        background-color: white;
+        border: none;
+        color: whitesmoke;
+        font-size: 24px;
+    }
     .prod2{
         width: 100%;
         display: flex;
@@ -100,5 +112,12 @@
         border-radius: 20px;
         width: 121px;
         height: 48px;
+        text-align: center;
+    }
+
+    /* effects */
+    .bigshoe:hover{
+        transform: rotateY(360deg);
+        transition: 3s ease-in-out;
     }
 }

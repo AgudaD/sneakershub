@@ -28,7 +28,7 @@
     }
     input:focus{
         border: none;
-        width: 350px;
+        width: 100%;
         outline: none;
     }
     .searchbutton{
@@ -58,6 +58,7 @@
         border: 1px solid #F6F6F6;
         box-sizing: border-box;
         border-radius: 10px;
+        text-align: center;
     }
     .name{
         font-style: normal;

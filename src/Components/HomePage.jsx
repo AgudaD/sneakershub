@@ -24,7 +24,7 @@ import searchh from '../Assets/searchh.svg'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='bod'>
         <div className="navigation">
             <img src={menu} alt="" />
             <img src={Bag} alt="" />

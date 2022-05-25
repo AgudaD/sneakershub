@@ -15,14 +15,14 @@ import Vector from '../Assets/Vector.svg'
 
 const ItemPage = () => {
   return (
-    <div>
-        <div className="navigation">
+    <div className='bod'>
+        <div className="navigation2">
             <img src={left} alt="" />
             <img src={heart} alt="" />
         </div>
 
-        <div className="prod">
-            <div className="prod-info">
+        <div className="prod2">
+            <div className="prod2-info">
                 <p style={{margin: '0', fontStyle: 'normal', fontWeight: '400', fontSize: '18px'}}>Jordan</p>
                 <p style={{margin: '0', fontStyle: 'normal', fontWeight: '400', fontSize: '14px'}}>Air Jordan 1 High OG ASG</p>
                 <p style={{margin: '0', fontStyle: 'normal', fontWeight: '700', fontSize: '18px'}} className="price">$1780</p>
@@ -59,8 +59,8 @@ const ItemPage = () => {
             <img   src={camera} alt="" />
         </div>
 
-        <div style={{marginLeft: '40px'}}>
-            <p className='info'>Try moving the shoe in whatever direction with your finger for 360 view mode</p>
+        <div>
+            <p className='info2'>Try moving the shoe in whatever direction with your finger for 360 view mode</p>
         </div>
 
         <div className="below">
